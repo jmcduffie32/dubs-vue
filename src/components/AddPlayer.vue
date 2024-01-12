@@ -63,7 +63,7 @@ function addAndReset() {
         id="new-player-odd-dog"
         v-model="newPlayer.oddDog"
     /></label>
-    <button type="button" class="bg-blue-500 rounded text-white p-1 mt-4" @click="addAndReset">
+    <button type="button" class="bg-blue-500 hover:bg-blue-800 rounded text-white p-1 mt-4" @click="addAndReset">
       Add
     </button>
   </div>
